@@ -6,6 +6,27 @@ It contains source code for tutorial published https://medium.com/@mansha99/deve
 
 Better Laravel monoliths: Keep it loosely coupled, Keep it layered, Provide separation of concerns.
 
+## Discussion
+
+Every customer comes up with at least three basic demands: " I want my App to be scalable, maintainable and reliable".
+What does it mean ?
+Scalability is the ability of an Application to ensure quality and efficiency under growing load and users, thus ensuring user experience.
+Maintainability is the ability of an Application to fix bugs and defects, allowing updates and modifications with ease. It is possible if App allows a component to be replaced or modified without modifying the remaining system.
+Reliability is the ability of an App to recover from failures, faults and exceptions thus ensuring availability, integrity and security.
+"Initially user registration appears to work well, it was fast and responsive, and now we have issues. It is taking a lot of time. Sometimes it seems to be dead. Our traffic has yet not grown considerably, but we are getting performance bottlenecks"
+"What else?"
+"Our new developer is finding it difficult to detect bottlenecks and other issues. Adding new features or updating existing once is taking a lot of time. Earlier it was not the case"
+"Oh, so you are stuck in Big Ball of Mud "
+"What does it mean?"
+"Unregulated growth, and repeated, expedient repairs"
+"?"
+"We tried to put everything in a single place. We provided no separation of concerns"
+"Please explain further"
+"We were supposed to separate concerns like validation, database access, presentation and transformation. We should redesign our App to implement layered Architecture"
+"But another guy was suggesting microservices to me. Should we not be doing that ?"
+"Microservices are awesome, and make sense when we want to design an enterprise application catering to hundreds and thousands of users. Such apps should decouple their business logic using domain driven design. At this stage it is advisable to go with a layered monolith. Later on we will use Strangler pattern to move from monolith to microservices"
+"Ok let's start designing better monolith"
+
 ---
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
